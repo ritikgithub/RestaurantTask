@@ -50,8 +50,9 @@
 function task() {
    
     async function  showPosition(position) {
-      let lat = 29.257648;
-      let long = 78.500061;
+      let lat = position.coords.latitude;
+      let long = position.coords.longitude;
+      $("#coordinates").text(lat+','+long);
       try{
         let data = await $.ajax({
           type: 'get',
