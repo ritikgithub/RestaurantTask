@@ -1,0 +1,37 @@
+button {
+    padding: 10px;
+    font-size:1.4rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    background-color: thistle;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+p span {
+    font-weight: bold;
+}
+
+table {
+    margin: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+table th{
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+table td{
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px solid black;
+}
