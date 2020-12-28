@@ -145,4 +145,4 @@ getLocation();
 }
 
 //Event Listener for button
-$("#getLocation").click(task);
+$("#getResult").click(task);
