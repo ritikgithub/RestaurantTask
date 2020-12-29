@@ -42,7 +42,7 @@ function getDrivingRoutes(srcLat,srcLong,destLat,destLong) {
       origin:srcLat+','+srcLong,
       destination:destLat+','+destLong,
       return:'summary',
-      apiKey:'OECluS58Z5CNu-57jY6nVoJQfPK2yHFkMjMT13rJxeQ'
+      apiKey:'04pP2eoz5U8-jKCjViou845X41Cu5wFyILwsplKFK28'
     }
   });
 }
